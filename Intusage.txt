@@ -1,0 +1,17 @@
+two examples of data that cannot be stored in a variable of type int :
+Float and String.
+ex :
+
+public class Inttype{
+
+	public static void Inttype(){
+		int a;
+		a = 4; // possible
+	      //a = "elephant"; not possible since a is an integer and "elephant" is a string.
+	      //a =  546.554 ; not possible since a is an integer and 546.554 is a float type.
+		System.out.println(a);
+	}
+	public static void main(String[] args) {
+		Inttype();
+	}
+}
